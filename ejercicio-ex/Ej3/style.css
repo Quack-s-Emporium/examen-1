@@ -1,0 +1,114 @@
+h1 {
+    font-family:'Vollkorn SC', serif;
+    text-align: 'center';
+    color: white;
+    border: 3px dashed gold;
+    background-color: #AE1B62;
+    width: 295px;
+    margin: auto;
+    
+  }
+  
+  input, label {
+    display: block;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  label.color {
+    margin-top: 10px;
+    color:black;
+  }
+  
+  input {
+    height: 30px;
+    padding: 5px;
+    outline: none;
+    border-style: none;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 5px;
+    font-size: 15px;
+    color: #C42838
+  }
+  
+  input[type=button] {
+    color: black;
+    margin: 5px;
+    background-color: #ff7e67;
+  
+  }
+  input[type=button]:hover {
+    cursor: pointer;
+    border: 1px solid #c93838;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+  }
+  
+  input[type=button]:active {
+    cursor: pointer;
+    color: white;
+    background-color: #c93838;
+    box-shadow: none;
+  }
+  
+  #resultado, #descuento {
+    color: white;
+    width: 100%;
+    background-color: #35495e;
+  }
+  
+  .container {
+    width: 400px;
+    background-color: #AE1B62;
+    color: #FFF;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .panel {
+    margin-top: 10px;
+  }
+  
+  .column {
+    width: 45%;
+    padding: 1 10px;
+    
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .row {
+    text-align:center;
+    margin:auto;
+  
+  }
+  
+   body {
+       background-color: #AE1B62;
+   }
+  
+   h2 {
+    font-family:'Vollkorn SC', serif;
+    text-align: 'center';
+    color: black;
+    border: 4px solid #AE1B62;
+    background-color: #AE1B62;
+    width: 150px;
+    margin: auto;
+   }
+
+  .gold {
+    color: gold;
+  }
+
+  .container2 {
+    background-color: #810D45;
+    margin: 15px auto;
+    padding: 20px;
+  }

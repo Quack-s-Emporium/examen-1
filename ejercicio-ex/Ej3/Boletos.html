@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        
+        <title>Boletos</title>
+        <link class="ordinario" rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Vollkorn+SC&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <h1>Venta de Boletos</h1>
+        <div class="container">
+            <form>
+                <label align="center" for="boletos">Cuantos boletos desea comprar</label>
+                        <input type="number" id="boletos" />
+                <label align="center" for="seccion">Zona del recinto a comprar</label>
+                        <input type="text" id="seccion" />
+                <label align="center" for="genero">Genero</label>
+                        <input type="text" id="genero" />
+                        <label align="center" for="descuento">Descuento</label>
+                        <input type="text" id="descuento" readonly />
+                        <label align="center" for="resultado">Total:</label>
+                        <input type="text" id="resultado" readonly />
+                    <div class="panel">
+                    <div class="row">
+                        <input type="button" id="btnCalcular" value="Pagar"/> <br/>
+                    </div>
+            </form>
+        </div>
+
+        <div class="container2">
+            <form>
+                <label align="center" for="descuentos" class="gold"><strong>Zonas y Precios</strong></label>
+                <label align="center" for="desc1">General: 500$</label>
+                <label align="center" for="desc2">Plata: 750$</label>
+                <label align="center" for="desc3">Oro: 1000$</label> 
+                <label align="center" for="costopelicula">VIP: 1500$</label> <br/>
+                <label align="center" for="precioss" class="gold"><strong>Descuentos</strong></label>
+                <label align="center" for="descmasc">Masculino: -10% de descuento en 3 o mas</label>
+                <label align="center" for="descmasc">Femenino: -15% de descuento en 5 o mas</label>
+            </form>
+        </div>
+
+
+    </body>
+    
+    <script src="Boletos.js"></script>

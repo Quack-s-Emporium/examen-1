@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang='es'>
+    <head>
+        <title>Sueldo</title>
+        <link class='sueldo' rel='stylesheet' href='style.css'>
+
+
+    </head>
+
+    <body>
+        <h1> Sueldo </h1>
+        <div class='container'>
+            <form>
+                <label align='center' for="username"> Ingrese su nombre de Usuario</label> 
+                    <input type="text" id="username" />
+                <label align='center' for="password"> Ingrese su clave de acceso</label>
+                    <input type="text" id="password" />
+                <label align='center' for="hours"> Ingrese las horas trabajadas</label>
+                    <input type="number" id="hours" />
+                
+                <label align="center" for="resultado">Resultado:</label>
+                    <input type="text" id="resultado" readonly />
+                <div class="panel">
+                <div class="row">
+                    <input type="button" id="btnCalcular" value="Calcular" />
+
+                </div>
+            
+            </form>
+        </div>
+
+        <div class="container2">
+            <form>
+                <label align="center" for="descuentos" class="gold"><strong>Usuarios y Paga</strong></label>
+                <label align="center" for="desc1">user: 75$ la hora</label>
+                <label align="center" for="desc2">admin: 125$ la hora</label>
+            </form>
+        </div>
+    </body>
+
+
+    <script src="Sueldo.js"></script>
+
+</html>
